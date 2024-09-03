@@ -1,0 +1,48 @@
+<!-- frontend/booking.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Ride - Dp_cab</title>
+    <link rel="stylesheet" href="style0.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2>Dp_cab</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="booking.html">Book a Ride</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="#" id="logout">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h1>Book a Ride</h1>
+            <form id="booking-form">
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" placeholder="Enter pickup location" required>
+
+                <label for="drop">Drop Location:</label>
+                <input type="text" id="drop" name="drop" placeholder="Enter drop location" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

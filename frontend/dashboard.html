@@ -1,0 +1,48 @@
+
+<!-- frontend/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Dp_cab</title>
+    <link rel="stylesheet" href="style0.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2>Dp_cab</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="booking.html">Book a Ride</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="#" id="logout">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome, <span id="user-name">User</span>!</h1>
+            <p>Your trusted partner for safe and reliable cab bookings.</p>
+        </section>
+
+        <section class="recent-bookings">
+            <h2>Recent Bookings</h2>
+            <div id="bookings-list">
+                <!-- Bookings will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
